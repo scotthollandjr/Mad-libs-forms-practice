@@ -1,1 +1,7 @@
-styles.css
+#story {
+  display: none;
+}
+
+#refresh {
+  cursor: pointer;
+}

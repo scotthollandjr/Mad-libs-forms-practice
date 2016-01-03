@@ -1,1 +1,59 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="survey">
+        <h1>Fill in the blanks to write your story!</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="person1">Your name</label>
+              <input id="person1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="person2">Another name</label>
+              <input id="person2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animal1">An animal</label>
+              <input id="animal1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="animal2">A pet's name</label>
+              <input id="animal2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="badword">A bad word</label>
+              <input id="badword" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="attack">A type of attack</label>
+              <input id="attack" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="verb">A past tense verb</label>
+              <input id="verb" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="nouns">A plural noun</label>
+              <input id="nouns" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">Show me the story!</button>
+          </form>
+        </div>
+      </div>
+      <div id="story">
+        <h2><span class="person1"></span>'s First Pokemon Adventure</h2>
+        <p>One day, <span class="person1"></span> and <span class="person2"></span> were out for a walk in the tall grass behind their neighborhood. They heard a rustle behind a bush and then suddenly a wild <span class="animal1"></span> appeared! <span class="person1"></span> exclaimed '<span class="badword"></span>!!!', as <span class="person2"></span> wept and prayed. Thinking quickly, <span class="person1"></span> threw a pokeball, shouting '<span class="animal2"></span>', I choose you!" <span class="animal2"></span> used their <span class="attack"></span> move and the <span class="animal1"></span> fainted! <span class="person1"></span> and <span class="person2"></span> <span class="verb"></span> for joy and they all walked off into the horizon, feeling like they were truly <span class="nouns"></span>.</p>
+        <p id="refresh">Wasn't that fun? Click here to make a new story!</p>
+      </div>
+    </div>
+  </body>
+</html>
