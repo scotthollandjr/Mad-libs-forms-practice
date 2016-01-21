@@ -10,4 +10,8 @@ Practice using forms and jQuery, for Epicodus JavaScript Basics course
 
 _This website will use HTML, CSS and JavaScript_
 
+## Link to GitHub Repository
+
+https://github.com/theAppanaut/Mad-libs-forms-practice.git
+
 Copyright (c) 2016 **_Scott Holland, Jr._**
